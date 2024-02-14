@@ -12,7 +12,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-
 @Component
 @ServerEndpoint(value = "/websocket")
 public class ServerNotifier implements Notifier {
